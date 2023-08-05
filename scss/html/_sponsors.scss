@@ -1,0 +1,26 @@
+@import "extra/variables";
+@import "extra/mixin";
+
+.sponsor {
+    width: 200px;
+    transition: 0.2s;
+    padding: 10px;
+  
+    &:hover {
+      transform: scale(1.2);
+      transition: 0.2s;
+    }
+  }
+  
+  .color-invert {
+    filter: invert(100%);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 64px;
+    gap: 2rem;
+  }

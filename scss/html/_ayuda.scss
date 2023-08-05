@@ -1,0 +1,28 @@
+@import "extra/variables";
+@import "extra/mixin";
+
+
+.subtitulopagina {
+    color: $color-secundario;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .preguntasfrecuentes {
+    padding: 20px;
+  }
+  
+  .preguntas {
+    list-style: none;
+  }
+  
+  .pregunta {
+    background-color: $color-preguntas;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+  
+    h2 {
+      margin-bottom: 10px;
+    }
+  }
